@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube UI Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"rel="stylesheet"/>
+</head>
+<body>
+  <div class="header flex items-center space-btw">
+    <div class="logo-div flex items-center">
+        <i class="ri-menu-line"></i>
+        <div class="logo">
+            <div class="logo-img">
+                <img src="./assets/Youtubeclone1 - Copy.jfif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="search-div flex items-center">
+        <form>
+            <input class="flex items-center" type="text" placeholder="search">
+        </form>
+        <button class="search flex items-center justify"><i class="ri-search-line"></i></button>
+        <button class="mic flex items-center justify"><i class="ri-mic-fill"></i></button>
+    </div>
+    <div class="icons-div flex items-center gap-1">
+        <i class="ri-video-add-line"></i>
+        <i class="ri-notification-3-line"></i>
+        <p class="paragraph white flex items-center justify">R</p>
+    </div>
+  </div>  
+  <div class="body-div flex">
+    <div class="sidebar">
+        <div class="sidebar-contents flex justify">
+            <a href="#" class="sidebar-content"><i class="ri-home-smile-fill"></i>Home</a>
+            <a href="#" class="sidebar-content"><i class="ri-home-smile-fill"></i>Shorts</a>
+            <a href="#" class="sidebar-content"><i class="ri-home-smile-fill"></i>Subscriptions</a>
+            <hr>
+            <h4 class="you">you</h4>
+            <a href="#" class="sidebar-content"><i class="ri-history-line"></i>History</a>
+            <a href="#" class="sidebar-content"><i class="ri-time-line"></i>Watch later</a>
+            <a href="#" class="sidebar-content"><i class="ri-download-line"></i>Downloads</a>
+            <a href="#" class="sidebar-content"><i class="ri-thumb-up-fill"></i>Liked videos</a>
+            <hr>
+            <h4 class="explore">explore</h4>
+            <a href="#" class="sidebar-content"><i class="ri-home-smile-fill"></i>Trending</a>
+            <a href="#" class="sidebar-content"><i class="ri-music-line"></i>Music</a>
+            <a href="#" class="sidebar-content"><i class="ri-discord-fill"></i>Gaming</a>
+            <a href="#" class="sidebar-content"><i class="ri-news-line"></i>News</a>
+            <a href="#" class="sidebar-content"><i class="ri-trophy-line"></i>Sports</a>
+            <hr>
+            <h4 class="more">more from youTube</h4>
+            <a href="#" class="sidebar-content u"><i class="ri-youtube-fill"></i>YouTube Premium</a>
+            <a href="#" class="sidebar-content"><i class="ri-home-smile-fill"></i>YouTube Music</a>
+            <a href="#" class="sidebar-content"><i class="ri-home-smile-fill"></i>YouTube Kids</a>
+            <hr>
+            <a href="#" class="sidebar-content"><i class="fa-solid fa-gear"></i>Settings</a>
+            <a href="#" class="sidebar-content"><i class="fa-regular fa-flag"></i>Report history</a>
+            <a href="#" class="sidebar-content"><i class="ri-question-line"></i>Help</a>
+            <a href="#" class="sidebar-content"><i class="fa-regular fa-comment-dots"></i>Send feedback</a>
+            <hr>
+            <div class="footer flex white gap-1">
+                <p>About</p>
+                <p>Press</p>
+                <p>Copyright</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="wrapper flex">
+            <div class="wrap All">
+                <p>All</p>
+            </div>
+            <div class="wrap">
+                <p>Nollywood</p>
+            </div>
+            <div class="wrap">
+                <p>Music</p>
+            </div>
+            <div class="wrap">
+                <p>Sketch comedy</p>
+            </div>
+            <div class="wrap">
+                <p>Live</p>
+            </div>
+            <div class="wrap">
+                <p>News</p>
+            </div>
+            <div class="wrap">
+                <p>Davido</p>
+            </div>
+            <div class="wrap">
+                <p>Freestyle rap</p>
+            </div>
+            <div class="wrap">
+                <p>African Music</p>
+            </div>
+            <div class="wrap">
+                <p>Playlists</p>
+            </div>
+            <div class="wrap">
+                <p>Video editing sofware</p>
+            </div>
+            <div class="wrap">
+                <p>Computer programming</p>
+            </div>
+            <div class="wrap">
+                <p>Chill-out music</p>
+            </div>
+            <div class="wrap">
+                <p>Live television</p>
+            </div>
+            <div class="wrap">
+                <p>Content</p>
+            </div>
+            <div class="wrap">
+                <p>CSS</p>
+            </div>
+            <div class="wrap">
+                <p>HTML</p>
+            </div>
+            <div class="wrap">
+                <p>Shania Twain</p>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube3.jfif " alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title width-ch">THE CRAZY IN-LAWS | MR MACARONI | CHIOMA AKPOTHA | LONDONER | OLUMIDE OWORU | MOTUNDE</h3>
+                        <div class="channel-name">MR MACARONI</div>
+                        <div class="views-upload ">
+                            <div class="views">1.6M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">8 months ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                       <img class="vids" src="./assets/youtube4.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">HERE FOR YOU Music Video ||</h3>
+                        <h5>JayMIkee ft. TeeMikee</h5>
+                        <div class="channel-name">Joshua Mike-Bamiloye</div>
+                        <div class="views-upload">
+                            <div class="views">555K views</div>
+                            <div class="join">+</div>
+                            <div class="upload">1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube2.jfif" alt="">
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">Shania Twain - You're Still The One</h3>
+                        <h5>(Official Music Video)</h5>
+                        <div class="channel-name">Shania Twain</div>
+                        <div class="views-upload">
+                            <div class="views">257M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">14 years ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube1.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">Shania Twain - Forever And For Always</h3>
+                        <h5>(Red Version) (Official Music Video)</h5>
+                        <div class="channel-name">Shania Twain</div>
+                        <div class="views-upload">
+                            <div class="views">129M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">14 years ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube1.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">Shania Twain - Forever And For Always</h3>
+                        <h5>(Red Version) (Official Music Video)</h5>
+                        <div class="channel-name">Shania Twain</div>
+                        <div class="views-upload">
+                            <div class="views">129M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">14 years ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube3.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title width-ch">THE CRAZY IN-LAWS | MR MACARONI | CHIOMA AKPOTHA | LONDONER | OLUMIDE OWORU | MOTUNDE</h3>
+                        <div class="channel-name">MR MACARONI</div>
+                        <div class="views-upload">
+                            <div class="views">1.6M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">8 months ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube4.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">HERE FOR YOU Music Video ||</h3>
+                        <h5>JayMIkee ft. TeeMikee</h5>
+                        <div class="channel-name">Joshua Mike-Bamiloye</div>
+                        <div class="views-upload">
+                            <div class="views">555K views</div>
+                            <div class="join">+</div>
+                            <div class="upload">1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube2.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">Shania Twain - You're Still The One</h3>
+                        <h5>(Official Music Video)</h5>
+                        <div class="channel-name">Shania Twain</div>
+                        <div class="views-upload">
+                            <div class="views">257M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">14 years ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube1.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">Shania Twain - Forever And For Always</h3>
+                        <h5>(Red Version) (Official Music Video)</h5>
+                        <div class="channel-name">Shania Twain</div>
+                        <div class="views-upload">
+                            <div class="views">129M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">14 years ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube4.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">HERE FOR YOU Music Video ||</h3>
+                        <h5>JayMIkee ft. TeeMikee</h5>
+                        <div class="channel-name">Joshua Mike-Bamiloye</div>
+                        <div class="views-upload">
+                            <div class="views">555K views</div>
+                            <div class="join">+</div>
+                            <div class="upload">1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                       <img class="vids" src="./assets/youtube1.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">Shania Twain - Forever And For Always</h3>
+                        <h5>(Red Version) (Official Music Video)</h5>
+                        <div class="channel-name">Shania Twain</div>
+                        <div class="views-upload">
+                            <div class="views">129M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">14 years ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube1.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">Shania Twain - Forever And For Always</h3>
+                        <h5>(Red Version) (Official Music Video)</h5>
+                        <div class="channel-name">Shania Twain</div>
+                        <div class="views-upload">
+                            <div class="views">129M views</div>
+                            <div class="join">+</div>
+                            <div class="upload">14 years ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-div-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img class="vids" src="./assets/youtube4.jfif" alt="">
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3 class="title">HERE FOR YOU Music Video ||</h3>
+                        <h5>JayMIkee ft. TeeMikee</h5>
+                        <div class="channel-name">Joshua Mike-Bamiloye</div>
+                        <div class="views-upload">
+                            <div class="views">555K views</div>
+                            <div class="join">+</div>
+                            <div class="upload">1 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- video-container ends here -->
+        </div>
+    </div>
+  </div>
+</body>
+</html>
